@@ -12,26 +12,33 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <dependency.version.javaee-web-api>6.0</dependency.version.javaee-web-api>
+        <dependency.version.joda-time>1.6.2</dependency.version.joda-time>
+        <dependency.version.guava>12.0</dependency.version.guava>
+        <dependency.version.junit>4.8.2</dependency.version.junit>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
-            <version>6.0</version>
+            <version>${dependency.version.javaee-web-api}</version>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
-            <version>1.6.2</version>
+            <version>${dependency.version.joda-time}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${dependency.version.guava}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.8.2</version>
+            <version>${dependency.version.junit}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>

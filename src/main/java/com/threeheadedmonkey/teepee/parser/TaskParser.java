@@ -1,7 +1,7 @@
 package com.threeheadedmonkey.teepee.parser;
 
-import com.threeheadedmonkey.teepee.domain.Tag;
-import com.threeheadedmonkey.teepee.domain.Task;
+import com.threeheadedmonkey.teepee.entity.Tag;
+import com.threeheadedmonkey.teepee.entity.Task;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 

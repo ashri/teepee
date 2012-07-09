@@ -1,10 +1,7 @@
 package com.threeheadedmonkey.teepee.parser;
 
-import com.threeheadedmonkey.teepee.domain.Task;
+import com.threeheadedmonkey.teepee.entity.Task;
 import org.joda.time.DateTime;
-import org.joda.time.DateTimeUtils;
-import org.joda.time.format.DateTimeFormat;
-import org.joda.time.format.DateTimeFormatter;
 import org.junit.Before;
 import org.junit.Test;
 

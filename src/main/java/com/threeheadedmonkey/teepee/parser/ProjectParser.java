@@ -1,6 +1,6 @@
 package com.threeheadedmonkey.teepee.parser;
 
-import com.threeheadedmonkey.teepee.domain.Project;
+import com.threeheadedmonkey.teepee.entity.Project;
 
 import java.util.regex.Pattern;
 
