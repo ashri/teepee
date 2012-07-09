@@ -2,16 +2,20 @@ package com.threeheadedmonkey.teepee.io;
 
 import org.junit.Test;
 
+import static org.junit.Assert.fail;
+
 /**
- * Created with IntelliJ IDEA.
- * User: ashley
- * Date: 9/07/12
- * Time: 9:19 PM
- * To change this template use File | Settings | File Templates.
+ * Unit test for the FileReader
  */
 public class FileReaderTest {
+
     @Test
     public void testRead() throws Exception {
+        fail("Implement test");
+    }
 
+    @Test
+    public void testConsolidateItems() throws Exception {
+        fail("Implement test");
     }
 }

@@ -1,11 +1,63 @@
 package com.threeheadedmonkey.teepee.parser;
 
+import java.util.regex.Pattern;
+
 /**
- * Created with IntelliJ IDEA.
- * User: ashley
- * Date: 9/07/12
- * Time: 9:06 PM
- * To change this template use File | Settings | File Templates.
+ * Creates a parser based on the provided line format
  */
 public class ParserFactory {
+
+    private static ParserFactory instance;
+
+    private final Parser project;
+    private final Parser task;
+    private final Parser note;
+
+    protected ParserFactory() {
+        this.project = new ProjectParser();
+        this.task = new TaskParser();
+        this.note = new NoteParser();
+    }
+
+    protected static ParserFactory getInstance() {
+        if (instance == null) {
+            instance = new ParserFactory();
+        }
+        return instance;
+    }
+
+    /**
+     * Based on the provided line create a Parser
+     *
+     * @param line The line that will be parsed and therefore determines the Parser returned
+     * @return the Parser
+     */
+    public static Parser getParser(String line) {
+
+        return instance.determineParser(line);
+    }
+
+    private Parser determineParser(String line) {
+        if (isProject(line)) {
+            return project;
+        } else if (isTask(line)) {
+            return task;
+        } else if (isNote(line)) {
+            return note;
+        }
+
+        return null;
+    }
+
+    private boolean isProject(String line) {
+        return line.matches(project.getPattern().pattern());
+    }
+
+    private boolean isTask(String line) {
+        return line.matches(task.getPattern().pattern());
+    }
+
+    private boolean isNote(String line) {
+        return line.matches(note.getPattern().pattern());
+    }
 }
