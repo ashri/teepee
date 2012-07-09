@@ -1,4 +1,4 @@
-package com.threeheadedmonkey.teepee.domain;
+package com.threeheadedmonkey.teepee.entity;
 
 /**
  * Basic item which contains a line of content

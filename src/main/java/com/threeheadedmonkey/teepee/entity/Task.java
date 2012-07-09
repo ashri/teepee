@@ -1,4 +1,4 @@
-package com.threeheadedmonkey.teepee.domain;
+package com.threeheadedmonkey.teepee.entity;
 
 import java.util.ArrayList;
 import java.util.Date;

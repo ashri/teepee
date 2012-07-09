@@ -1,4 +1,4 @@
-package com.threeheadedmonkey.teepee.domain;
+package com.threeheadedmonkey.teepee.entity;
 
 
 public class Tag extends Item {
