@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ad7fae-7c7b-4f1a-a1a2-9d98fd225ea5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/exception/TeepeeException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Item.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Item.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Note.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Note.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/ParentItem.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/ParentItem.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Project.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Project.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Tag.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Tag.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Task.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Consolidator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/entity/ConsolidatorTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/NoteParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/NoteParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/Parser.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/Parser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ProjectParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ProjectParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/NoteParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/NoteParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/ProjectParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/ProjectParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper" afterPath="$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.iml" afterPath="$PROJECT_DIR$/teepee.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.ipr" afterPath="$PROJECT_DIR$/teepee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.iws" afterPath="$PROJECT_DIR$/teepee.iws" />
@@ -105,8 +90,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -115,22 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FileReader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2306#2312#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileReaderTest.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.2635659">
+            <state line="26" column="29" selection-start="769" selection-end="769" vertical-scroll-proportion="0.6105675">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +111,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParserFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java">
+      <file leaf-file-name="Consolidator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Consolidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="24" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="66" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -161,9 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/NoteParserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ProjectParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/NoteParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/ParentItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/domain/Item.java" />
@@ -173,10 +152,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Collection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/exception/TeepeeException.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/entity/ConsolidatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Consolidator.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -542,25 +524,27 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.threeheadedmonkey.teepee.entity" />
       <recent name="com.threeheadedmonkey.teepee.io" />
       <recent name="com.threeheadedmonkey.teepee.parser" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.threeheadedmonkey.teepee.entity" />
       <recent name="com.threeheadedmonkey.teepee.parser" />
       <recent name="com.threeheadedmonkey.teepee.exception" />
       <recent name="com.threeheadedmonkey.teepee.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TaskParserTest">
+  <component name="RunManager" selected="JUnit.FileReaderTest">
     <configuration default="false" name="NoteParserTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="teepee" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -630,6 +614,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FileReaderTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="teepee" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.threeheadedmonkey.teepee.io" />
+      <option name="MAIN_CLASS_NAME" value="com.threeheadedmonkey.teepee.io.FileReaderTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -707,10 +713,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.NoteParserTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ProjectParserTest" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TaskParserTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FileReaderTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -751,21 +758,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914772" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.2372159" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24856322" sideWeight="0.670412" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24856322" sideWeight="0.6716604" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -829,31 +836,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/NoteParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.80224717" />
-      </provider>
-    </entry>
-    <entry file="jar:///System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar!/java/util/regex/Matcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="0" selection-start="3428" selection-end="3428" vertical-scroll-proportion="0.7638889" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="-0.76404494" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="840" selection-end="840" vertical-scroll-proportion="0.447191" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/ProjectParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.48062015" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="84" column="29" selection-start="3049" selection-end="3049" vertical-scroll-proportion="1.1472868" />
@@ -861,73 +843,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ProjectParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="534" selection-end="534" vertical-scroll-proportion="0.31007752">
-          <folding />
-        </state>
+        <state line="22" column="19" selection-start="534" selection-end="534" vertical-scroll-proportion="0.31007752" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/ParentItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="412" selection-end="412" vertical-scroll-proportion="0.2635659">
-          <folding />
-        </state>
+        <state line="18" column="39" selection-start="412" selection-end="412" vertical-scroll-proportion="0.2635659" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.21705426">
-          <folding />
-        </state>
+        <state line="15" column="1" selection-start="287" selection-end="287" vertical-scroll-proportion="0.21705426" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/exception/TeepeeException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="53" selection-start="146" selection-end="146" vertical-scroll-proportion="0.07751938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="787" selection-end="787" vertical-scroll-proportion="0.24806201">
-          <folding />
-        </state>
+        <state line="5" column="53" selection-start="146" selection-end="146" vertical-scroll-proportion="0.07751938" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.3875969">
-          <folding />
-        </state>
+        <state line="27" column="0" selection-start="549" selection-end="549" vertical-scroll-proportion="0.3875969" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/NoteParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.5736434">
+        <state line="43" column="38" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.5736434" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/entity/ConsolidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="684" selection-end="684" vertical-scroll-proportion="0.28723404">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/ParserFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="24" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.0">
+        <state line="36" column="28" selection-start="911" selection-end="911" vertical-scroll-proportion="0.22504893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="567" selection-end="567" vertical-scroll-proportion="0.2818004">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Consolidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="13" selection-start="925" selection-end="925" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2306#2312#0" expanded="true" />
-          </folding>
+        <state line="70" column="66" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="20" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.62426615">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="292" selection-end="292" vertical-scroll-proportion="0.2635659">
+        <state line="26" column="29" selection-start="769" selection-end="769" vertical-scroll-proportion="0.6105675">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

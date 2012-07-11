@@ -15,6 +15,7 @@
         <dependency.version.javaee-web-api>6.0</dependency.version.javaee-web-api>
         <dependency.version.joda-time>1.6.2</dependency.version.joda-time>
         <dependency.version.guava>12.0</dependency.version.guava>
+        <dependency.version.logback>1.0.1</dependency.version.logback>
         <dependency.version.junit>4.8.2</dependency.version.junit>
     </properties>
 
@@ -34,6 +35,16 @@
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${dependency.version.guava}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${dependency.version.logback}</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${dependency.version.logback}</version>
         </dependency>
         <dependency>
             <groupId>junit</groupId>

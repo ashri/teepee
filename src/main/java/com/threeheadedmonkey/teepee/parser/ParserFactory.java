@@ -34,7 +34,7 @@ public class ParserFactory {
      */
     public static Parser getParser(String line) {
 
-        return instance.determineParser(line);
+        return getInstance().determineParser(line);
     }
 
     private Parser determineParser(String line) {
