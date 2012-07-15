@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 /**
  * Parse a Project line
  */
-public class ProjectParser implements Parser<Project> {
+public class ProjectParser extends ItemParser<Project> {
 
     @Override
     public Pattern getPattern() {
@@ -19,6 +19,13 @@ public class ProjectParser implements Parser<Project> {
         if (line == null || line.isEmpty()) {
             return null;
         }
-        return new Project(line.substring(0, line.length() - 1).trim());
+
+        // Get the indent level from the first whitespace
+        int level = parseLevelFromStartingWhitespace(line);
+
+        Project project = new Project(line.substring(0, line.length() - 1).trim());
+        project.setLevel(level);
+
+        return project;
     }
 }

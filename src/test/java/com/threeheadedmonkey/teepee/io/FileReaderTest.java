@@ -17,7 +17,7 @@ public class FileReaderTest {
     @Test
     public void testRead() throws Exception {
         Collection<Item> items = readFile();
-        assertEquals(13, items.size());
+        assertEquals(15, items.size());
     }
 
     private Collection<Item> readFile() throws FileNotFoundException {

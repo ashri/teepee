@@ -27,7 +27,7 @@ public class TaskParserTest {
         lines[2] = "\t- Invoice Systemic for the previous month @due(2012-06-29)";
         lines[3] = "\t- Check out JDBI @url(http://www.jdbi.org/archive.html)";
         lines[4] = "  - Mow lawn @overdue";
-        lines[5] = "- Install blinds throughout the house @tomorrow @rennovation";
+        lines[5] = "- Install blinds throughout the house @tomorrow @renovation";
     }
 
     @Test
@@ -85,6 +85,27 @@ public class TaskParserTest {
         assertEquals(new DateTime().plusDays(1).toString("dd/MM/yyyy"), new DateTime(task5.getDueDate()).toString("dd/MM/yyyy"));
         assertTrue(task5.hasTags());
         assertEquals(1, task5.getTags().size());
-        assertEquals("rennovation", task5.getTags().get(0).getContent());
+        assertEquals("renovation", task5.getTags().get(0).getContent());
+    }
+
+    @Test
+    public void testDetermineLevel() {
+        String[] lines = {
+                "\t- Root level",
+                "\t\t- Level 2",
+                "\t- Back to Root",
+                "  - Spaced level",
+                "    - Nested space level",
+        };
+        Task t0 = parser.parseLine(lines[0]);
+        assertEquals(1, t0.getLevel());
+        Task t1 = parser.parseLine(lines[1]);
+        assertEquals(2, t1.getLevel());
+        Task t2 = parser.parseLine(lines[2]);
+        assertEquals(1, t2.getLevel());
+        Task t3 = parser.parseLine(lines[3]);
+        assertEquals(1, t3.getLevel());
+        Task t4 = parser.parseLine(lines[4]);
+        assertEquals(2, t4.getLevel());
     }
 }

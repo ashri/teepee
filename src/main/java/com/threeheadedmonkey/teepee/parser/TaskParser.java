@@ -14,11 +14,11 @@ import java.util.regex.Pattern;
 /**
  * Parse a Task line with its tags and due date
  */
-public class TaskParser implements Parser<Task> {
+public class TaskParser extends ItemParser<Task> {
 
     @Override
     public Pattern getPattern() {
-        return Pattern.compile("^[ |\t]*- ([^ ][^@]+) ?(@.+)?$");
+        return Pattern.compile("^([ |\t]*?)- ([^ ][^@]+) ?(@.+)?$");
     }
 
     @Override
@@ -29,13 +29,18 @@ public class TaskParser implements Parser<Task> {
             return null;
         }
 
+        // Get the indent level from the first group
+        String indent = match.group(1);
+        int level = parseLevel(indent);
+
         // Get the content from the line
-        String content = match.group(1);
+        String content = match.group(2);
         Task task = new Task(content.trim());
+        task.setLevel(level);
 
         // Check for a due date or tags
-        if (match.group(2) != null) {
-            List<String> tags = matchTags(match.group(2));
+        if (match.group(3) != null) {
+            List<String> tags = matchTags(match.group(3));
             for (String tag : tags) {
                 addTag(task, tag);
             }

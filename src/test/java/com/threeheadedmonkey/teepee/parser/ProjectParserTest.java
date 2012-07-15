@@ -38,13 +38,16 @@ public class ProjectParserTest {
         String line = "This is a project:";
         Project project = parser.parseLine(line);
         assertEquals("This is a project", project.getContent());
+        assertEquals(0, project.getLevel());
 
         line = "  This is a project:";
         project = parser.parseLine(line);
         assertEquals("This is a project", project.getContent());
+        assertEquals(1, project.getLevel());
 
         line = "\t\t  This is a project:";
         project = parser.parseLine(line);
         assertEquals("This is a project", project.getContent());
+        assertEquals(3, project.getLevel());
     }
 }

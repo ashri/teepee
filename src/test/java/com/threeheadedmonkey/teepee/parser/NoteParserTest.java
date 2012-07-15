@@ -39,14 +39,17 @@ public class NoteParserTest {
         String line = "This is a note";
         Note note = parser.parseLine(line);
         assertEquals(line, note.getContent());
+        assertEquals(0, note.getLevel());
 
         line = "  This is a note";
         note = parser.parseLine(line);
         assertEquals("This is a note", note.getContent());
+        assertEquals(1, note.getLevel());
 
         line = "\t\t  This is a note";
         note = parser.parseLine(line);
         assertEquals("This is a note", note.getContent());
+        assertEquals(3, note.getLevel());
 
     }
 }
