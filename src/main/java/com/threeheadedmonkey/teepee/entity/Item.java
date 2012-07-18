@@ -29,6 +29,13 @@ public class Item {
     }
 
     public String toString() {
-        return content;
+        StringBuilder b = new StringBuilder();
+        for (int i = 0; i < level; i++) {
+            b.append("\t");
+        }
+        if (content != null && !content.isEmpty()) {
+            b.append(content);
+        }
+        return b.toString();
     }
 }
