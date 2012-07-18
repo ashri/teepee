@@ -52,7 +52,7 @@ public class FileReader {
         }
         // Split the file into single lines which can then be parsed
         log.debug("Splitting content of size {} characters", content.length());
-        Iterable<String> lines = Splitter.onPattern("\\r?\\n").trimResults().omitEmptyStrings().split(content);
+        Iterable<String> lines = Splitter.onPattern("\\r?\\n").omitEmptyStrings().split(content);
         // Parse the lines into a single Collection and return it
         return parseLines(lines);
     }

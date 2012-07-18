@@ -1,5 +1,6 @@
 package com.threeheadedmonkey.teepee.io;
 
+import com.threeheadedmonkey.teepee.entity.Consolidator;
 import com.threeheadedmonkey.teepee.entity.Item;
 import org.junit.Test;
 
@@ -17,7 +18,14 @@ public class FileReaderTest {
     @Test
     public void testRead() throws Exception {
         Collection<Item> items = readFile();
-        assertEquals(15, items.size());
+        assertEquals(17, items.size());
+    }
+
+    @Test
+    public void testReadAndConsolidate() throws Exception {
+        Collection<Item> items = readFile();
+        Collection<Item> consolidatedItems = new Consolidator(items).consolidate();
+        assertEquals(3, consolidatedItems.size());
     }
 
     private Collection<Item> readFile() throws FileNotFoundException {

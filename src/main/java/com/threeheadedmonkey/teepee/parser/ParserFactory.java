@@ -1,7 +1,5 @@
 package com.threeheadedmonkey.teepee.parser;
 
-import java.util.regex.Pattern;
-
 /**
  * Creates a parser based on the provided line format
  */

@@ -19,8 +19,7 @@ public interface Parser<T extends Item> {
     /**
      * Parse a line into its constituent parts as an Item
      *
-     * @param line
-     *         to be parsed
+     * @param line to be parsed
      * @return the populated Item
      */
     public T parseLine(String line);

@@ -1,8 +1,5 @@
 package com.threeheadedmonkey.teepee.entity;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Project extends ParentItem {
 
 
