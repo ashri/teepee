@@ -7,6 +7,8 @@ import java.util.List;
 public class Task extends ParentItem {
 
     private final List<Tag> tags;
+    private boolean done;
+    private Date doneDate;
     private boolean overdue;
     private Date dueDate;
 
@@ -25,6 +27,22 @@ public class Task extends ParentItem {
 
     public boolean hasTags() {
         return tags != null && !tags.isEmpty();
+    }
+
+    public void setDone() {
+        this.done = true;
+    }
+
+    public boolean isDone() {
+        return done;
+    }
+
+    public void setDoneDate(Date doneDate) {
+        this.doneDate = doneDate;
+    }
+
+    public Date getDoneDate() {
+        return doneDate;
     }
 
     public void setOverdue() {
@@ -55,4 +73,7 @@ public class Task extends ParentItem {
         return false;
     }
 
+    public ItemType getType() {
+        return ItemType.TASK;
+    }
 }

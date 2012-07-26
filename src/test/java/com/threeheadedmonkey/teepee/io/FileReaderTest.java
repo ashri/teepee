@@ -4,11 +4,9 @@ import com.threeheadedmonkey.teepee.entity.Consolidator;
 import com.threeheadedmonkey.teepee.entity.Item;
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.Collection;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 /**
  * Unit test for the FileReader

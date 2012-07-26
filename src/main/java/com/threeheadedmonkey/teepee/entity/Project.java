@@ -7,6 +7,10 @@ public class Project extends ParentItem {
         super(content);
     }
 
+    public ItemType getType() {
+        return ItemType.PROJECT;
+    }
+
     public String toString() {
         return super.toString() + ":";
     }

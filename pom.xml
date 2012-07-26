@@ -13,8 +13,10 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.version.javaee-web-api>6.0</dependency.version.javaee-web-api>
+        <dependency.version.freemarker>2.3.19</dependency.version.freemarker>
         <dependency.version.joda-time>1.6.2</dependency.version.joda-time>
-        <dependency.version.guava>12.0</dependency.version.guava>
+        <dependency.version.spring>3.1.2.RELEASE</dependency.version.spring>
+        <dependency.version.jcl-shim>1.6.6</dependency.version.jcl-shim>
         <dependency.version.logback>1.0.1</dependency.version.logback>
         <dependency.version.junit>4.8.2</dependency.version.junit>
     </properties>
@@ -27,14 +29,30 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>${dependency.version.freemarker}</version>
+        </dependency>
+        <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
             <version>${dependency.version.joda-time}</version>
         </dependency>
         <dependency>
-            <groupId>com.google.guava</groupId>
-            <artifactId>guava</artifactId>
-            <version>${dependency.version.guava}</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${dependency.version.spring}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${dependency.version.spring}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${dependency.version.jcl-shim}</version>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>ch.qos.logback</groupId>
@@ -53,6 +71,14 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>springsource-repo</id>
+            <name>SpringSource Repository</name>
+            <url>http://repo.springsource.org/release</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>

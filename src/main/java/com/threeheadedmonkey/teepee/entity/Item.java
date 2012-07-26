@@ -38,4 +38,8 @@ public class Item {
         }
         return b.toString();
     }
+
+    public ItemType getType() {
+        return ItemType.ITEM;
+    }
 }

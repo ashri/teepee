@@ -1,8 +1,11 @@
 package com.threeheadedmonkey.teepee.respository;
 
+import com.threeheadedmonkey.teepee.entity.Consolidator;
 import com.threeheadedmonkey.teepee.entity.Item;
+import com.threeheadedmonkey.teepee.io.FileReader;
 
 import javax.enterprise.context.ApplicationScoped;
+import java.io.FileNotFoundException;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,6 +20,13 @@ public class InMemoryRepository implements ItemRepository {
 
     public InMemoryRepository() {
         this.store = new HashMap<String, Collection<Item>>();
+        Collection<Item> items = null;
+        try {
+            items = readFromFile();
+            this.store.put("asdf", items);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -35,4 +45,11 @@ public class InMemoryRepository implements ItemRepository {
             store.put(key, items);
         }
     }
+
+    private Collection<Item> readFromFile() throws FileNotFoundException {
+        Collection<Item> items = new FileReader().read(new java.io.FileReader("src/test/resources/Personal-output.taskpaper"));
+        Collection<Item> consolidatedItems = new Consolidator(items).consolidate();
+        return consolidatedItems;
+    }
+
 }

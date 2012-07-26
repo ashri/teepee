@@ -5,8 +5,6 @@ import org.joda.time.DateTime;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Date;
-
 import static org.junit.Assert.*;
 
 /**
@@ -21,13 +19,14 @@ public class TaskParserTest {
     public void setUp() throws Exception {
         this.parser = new TaskParser();
 
-        lines = new String[6];
+        lines = new String[7];
         lines[0] = "\t- Complete Performance Engineering Report";
         lines[1] = "\t- Complete timesheet for CSC & TOAU @today";
         lines[2] = "\t- Invoice Systemic for the previous month @due(2012-06-29)";
         lines[3] = "\t- Check out JDBI @url(http://www.jdbi.org/archive.html)";
         lines[4] = "  - Mow lawn @overdue";
         lines[5] = "- Install blinds throughout the house @tomorrow @renovation";
+        lines[6] = "- Implement done tag support @done(2012-03-03)";
     }
 
     @Test
@@ -86,6 +85,13 @@ public class TaskParserTest {
         assertTrue(task5.hasTags());
         assertEquals(1, task5.getTags().size());
         assertEquals("renovation", task5.getTags().get(0).getContent());
+
+        Task task6 = parser.parseLine(lines[6]);
+        assertNotNull(task6);
+        assertEquals("Implement done tag support", task6.getContent());
+        assertFalse(task6.isDone());
+        assertEquals("03/03/2012", new DateTime(task6.getDoneDate()).toString("dd/MM/yyyy"));
+        assertFalse(task6.hasTags());
     }
 
     @Test

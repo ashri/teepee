@@ -1,19 +1,16 @@
 package com.threeheadedmonkey.teepee.io;
 
-import com.google.common.base.Splitter;
-import com.google.common.io.CharStreams;
 import com.threeheadedmonkey.teepee.entity.Item;
-import com.threeheadedmonkey.teepee.exception.TeepeeException;
 import com.threeheadedmonkey.teepee.parser.Parser;
 import com.threeheadedmonkey.teepee.parser.ParserFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
 import java.io.Reader;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Read a TaskPaper file into an entity
@@ -30,14 +27,9 @@ public class FileReader {
      * @return the parsed Collection of Items
      */
     public Collection<Item> read(Reader content) {
-        String readerContent;
-        try {
-            log.debug("Reading content from Reader");
-            readerContent = CharStreams.toString(content);
-        } catch (IOException e) {
-            throw new TeepeeException("Failed to read content from Reader", e);
-        }
-        return read(readerContent);
+        log.debug("Reading content from Reader");
+        Scanner lines = new Scanner(content);
+        return parseLines(lines);
     }
 
     /**
@@ -52,9 +44,9 @@ public class FileReader {
         }
         // Split the file into single lines which can then be parsed
         log.debug("Splitting content of size {} characters", content.length());
-        Iterable<String> lines = Splitter.onPattern("\\r?\\n").omitEmptyStrings().split(content);
+        Scanner scanner = new Scanner(content);
         // Parse the lines into a single Collection and return it
-        return parseLines(lines);
+        return parseLines(scanner);
     }
 
     /**
@@ -63,10 +55,12 @@ public class FileReader {
      * @param lines The lines to parse
      * @return the collection of items
      */
-    private Collection<Item> parseLines(Iterable<String> lines) {
+    private Collection<Item> parseLines(Scanner lines) {
         log.debug("Parsing lines of content into Items");
+        // Split the lines on carriage returns
         List<Item> items = new ArrayList<Item>();
-        for (String line : lines) {
+        while (lines.hasNext()) {
+            String line = lines.nextLine();
             Item item = parseLine(line);
             log.debug("Parsed line <<{}>> as Item: <<{}>>", line, item);
             if (item != null) {
