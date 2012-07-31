@@ -3,8 +3,10 @@ package com.threeheadedmonkey.teepee.respository;
 import com.threeheadedmonkey.teepee.entity.Consolidator;
 import com.threeheadedmonkey.teepee.entity.Item;
 import com.threeheadedmonkey.teepee.io.FileReader;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Singleton;
 import java.io.FileNotFoundException;
 import java.util.Collection;
 import java.util.HashMap;
@@ -13,8 +15,10 @@ import java.util.Map;
 /**
  * Store a list of items in memory by key
  */
-@ApplicationScoped
+@Singleton
 public class InMemoryRepository implements ItemRepository {
+
+    private final static Logger log = LoggerFactory.getLogger(InMemoryRepository.class);
 
     private final Map<String, Collection<Item>> store;
 
@@ -31,6 +35,7 @@ public class InMemoryRepository implements ItemRepository {
 
     @Override
     public Collection<Item> get(String key) {
+        log.debug("Getting tasks for key {}", key);
         return store.get(key);
     }
 
@@ -40,16 +45,17 @@ public class InMemoryRepository implements ItemRepository {
             throw new IllegalArgumentException("Key must have value");
         }
         if (items == null) {
+            log.debug("Removing tasks for key {}", key);
             store.remove(key);
         } else {
+            log.debug("Putting tasks for key {}", key);
             store.put(key, items);
         }
     }
 
     private Collection<Item> readFromFile() throws FileNotFoundException {
         Collection<Item> items = new FileReader().read(new java.io.FileReader("src/test/resources/Personal-output.taskpaper"));
-        Collection<Item> consolidatedItems = new Consolidator(items).consolidate();
-        return consolidatedItems;
+        return new Consolidator(items).consolidate();
     }
 
 }
