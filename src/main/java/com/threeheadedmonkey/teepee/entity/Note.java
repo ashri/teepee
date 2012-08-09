@@ -7,4 +7,8 @@ public class Note extends Item {
         super(content);
     }
 
+    public ItemType getType() {
+        return ItemType.NOTE;
+    }
+
 }

@@ -13,7 +13,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dependency.version.javaee-web-api>6.0</dependency.version.javaee-web-api>
-        <dependency.version.freemarker>2.3.19</dependency.version.freemarker>
+        <dependency.version.velocity>1.7</dependency.version.velocity>
         <dependency.version.joda-time>1.6.2</dependency.version.joda-time>
         <dependency.version.spring>3.1.2.RELEASE</dependency.version.spring>
         <dependency.version.jcl-shim>1.6.6</dependency.version.jcl-shim>
@@ -29,9 +29,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.freemarker</groupId>
-            <artifactId>freemarker</artifactId>
-            <version>${dependency.version.freemarker}</version>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>${dependency.version.velocity}</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>

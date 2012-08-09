@@ -51,8 +51,12 @@ public class ApplicationController {
         if (items == null) {
             throw new ResourceNotFoundException(uuid);
         }
-        model.addAttribute(items);
-        return "view";
+
+        DailyTasksDecorator dailyTasks = new DailyTasksDecorator(items);
+
+        model.addAttribute("key", uuid);
+        model.addAttribute("tasks", dailyTasks);
+        return "tasks";
     }
 
 }
