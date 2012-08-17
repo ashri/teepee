@@ -7,9 +7,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.inject.Inject;
 import java.util.Collection;
@@ -26,7 +28,12 @@ public class ApplicationController {
     private ItemRepository repository;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
-    public String get(Model model) {
+    public String get(@RequestParam(required = false) String key) {
+
+        if (StringUtils.hasText(key)) {
+            log.debug("Redirecting to {}", key);
+            return "redirect:/" + key;
+        }
 
         log.debug("Loading index page");
         return "index";

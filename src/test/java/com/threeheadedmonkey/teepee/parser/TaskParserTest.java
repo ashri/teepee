@@ -89,7 +89,7 @@ public class TaskParserTest {
         Task task6 = parser.parseLine(lines[6]);
         assertNotNull(task6);
         assertEquals("Implement done tag support", task6.getContent());
-        assertFalse(task6.isDone());
+        assertTrue(task6.isDone());
         assertEquals("03/03/2012", new DateTime(task6.getDoneDate()).toString("dd/MM/yyyy"));
         assertFalse(task6.hasTags());
     }

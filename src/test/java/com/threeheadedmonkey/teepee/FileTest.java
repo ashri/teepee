@@ -1,6 +1,7 @@
-package com.threeheadedmonkey.teepee.io;
+package com.threeheadedmonkey.teepee;
 
 import com.threeheadedmonkey.teepee.entity.Item;
+import com.threeheadedmonkey.teepee.io.FileReader;
 
 import java.io.File;
 import java.io.FileNotFoundException;

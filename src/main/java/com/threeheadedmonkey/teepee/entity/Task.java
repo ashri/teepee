@@ -1,5 +1,7 @@
 package com.threeheadedmonkey.teepee.entity;
 
+import org.joda.time.DateTime;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -11,6 +13,8 @@ public class Task extends ParentItem {
     private Date doneDate;
     private boolean overdue;
     private Date dueDate;
+    private boolean dueToday;
+    private boolean dueTomorrow;
 
     public Task(String content) {
         super(content);
@@ -55,6 +59,16 @@ public class Task extends ParentItem {
 
     public void setDueDate(Date dueDate) {
         this.dueDate = dueDate;
+        dueToday = false;
+        dueTomorrow = false;
+        if (hasDueDate()) {
+            DateTime today = new DateTime();
+            if (today.toDate().equals(dueDate)) {
+                dueToday = true;
+            } else if (today.plusDays(1).toDate().equals(dueDate)) {
+                dueTomorrow = true;
+            }
+        }
     }
 
     public Date getDueDate() {
@@ -66,11 +80,11 @@ public class Task extends ParentItem {
     }
 
     public boolean isDueToday() {
-        return false;
+        return dueToday;
     }
 
     public boolean isDueTomorrow() {
-        return false;
+        return dueTomorrow;
     }
 
     public ItemType getType() {

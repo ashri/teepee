@@ -70,6 +70,8 @@
                 </section>
             #end
 
+            <hr>
+
             #if ( $tasks.hasRegularTasks() )
                 <section class="tasks">
                     #printItems( $tasks.regularTasks )
