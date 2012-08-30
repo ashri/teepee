@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ad7fae-7c7b-4f1a-a1a2-9d98fd225ea5" name="Default" comment="Completed Consolidator and tests">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/TaskComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.vm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/web/DailyTasksDecoratorTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/FileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/ApplicationController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/DailyTasksDecorator.java" afterPath="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/DailyTasksDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/teepee.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.vm" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper" afterPath="$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.ipr" afterPath="$PROJECT_DIR$/teepee.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.iws" afterPath="$PROJECT_DIR$/teepee.iws" />
     </list>
     <ignored path="teepee.iws" />
@@ -81,8 +72,8 @@
       <property name="field_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByClasses" value="true" />
       <property name="exception_breakpoints_viewId" value="TABLE" />
-      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
       <property name="method_breakpoints_groupByMethods" value="false" />
     </ui_properties>
   </component>
@@ -90,7 +81,53 @@
     <favorites_list name="teepee" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="tasks.vm" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="136" selection-start="797" selection-end="797" vertical-scroll-proportion="0.5479452">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teepee.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/teepee.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="21" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.vm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.vm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="40" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -103,10 +140,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Note.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/FileTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/ItemDueComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/ItemDueComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/TaskComparator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java" />
@@ -114,11 +147,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java" />
         <option value="$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/DailyTasksDecorator.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.vm" />
         <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/web/DailyTasksDecoratorTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.vm" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/teepee.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm" />
       </list>
     </option>
   </component>
@@ -174,6 +211,20 @@
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -408,6 +459,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teepee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -448,20 +555,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teepee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="teepee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,12 +573,12 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -753,7 +846,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="818" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32970026" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -767,13 +860,13 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23324743" sideWeight="0.32496512" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23275863" sideWeight="0.6987088" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6987088" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23275863" sideWeight="0.6987088" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30129126" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.6987088" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -836,109 +929,102 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/FileTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="718" selection-end="718" vertical-scroll-proportion="0.32238805" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/1.7.0.jdk/Contents/Home/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="13" selection-start="3519" selection-end="3519" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/TaskComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="50" selection-start="199" selection-end="199" vertical-scroll-proportion="0.2347826">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="35" selection-start="1507" selection-end="1507" vertical-scroll-proportion="0.35217392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/parser/TaskParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="63" selection-start="1883" selection-end="1918" vertical-scroll-proportion="0.47826087">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/parser/TaskParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="31" selection-start="3286" selection-end="3286" vertical-scroll-proportion="0.33913043">
-          <folding />
-        </state>
+        <state line="85" column="31" selection-start="3286" selection-end="3286" vertical-scroll-proportion="0.33913043" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/ApplicationConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.4173913">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="43" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.6869565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="27" selection-start="719" selection-end="719" vertical-scroll-proportion="0.5731343">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.4173913" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/Personal-output.taskpaper">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="768" selection-end="768" vertical-scroll-proportion="0.25074628">
-          <folding />
-        </state>
+        <state line="14" column="35" selection-start="768" selection-end="768" vertical-scroll-proportion="0.25074628" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/DailyTasksDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="28" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.60597014">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="85" column="28" selection-start="2298" selection-end="2298" vertical-scroll-proportion="0.60597014" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/io/FileReaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="59" selection-start="699" selection-end="699" vertical-scroll-proportion="0.4695652">
-          <folding />
-        </state>
+        <state line="25" column="59" selection-start="699" selection-end="699" vertical-scroll-proportion="0.4695652" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/threeheadedmonkey/teepee/web/DailyTasksDecoratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="22" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.76521736">
+        <state line="65" column="22" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.76521736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="158" column="42" selection-start="6465" selection-end="6465" vertical-scroll-proportion="0.8567164">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/web/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="70" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.5179104">
+        <state line="29" column="30" selection-start="995" selection-end="995" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.vm">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="56" selection-start="328" selection-end="328" vertical-scroll-proportion="0.25074628">
+        <state line="14" column="21" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/application-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="68" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/teepee.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="95583" selection-end="95583" vertical-scroll-proportion="0.16438356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/header.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="40" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/threeheadedmonkey/teepee/entity/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/footer.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/tasks.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="136" selection-start="797" selection-end="797" vertical-scroll-proportion="0.5479452">
           <folding />
         </state>
       </provider>

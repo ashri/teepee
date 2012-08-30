@@ -1,10 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Teepee</title>
-    </head>
-    <body>
-
+#parse( "header.vm" )
         <h1>Teepee</h1>
 
         <p>No TaskPaper reference was provided.</p>
@@ -18,6 +12,4 @@
 
             <input type="submit" name="loadReference" value="Load">
         </form>
-
-    </body>
-</html>
+#parse( "footer.vm" )
