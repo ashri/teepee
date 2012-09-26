@@ -49,7 +49,6 @@ public class ApplicationController {
             return "redirect:/account/" + account.getId();
         }
      */
-
     @RequestMapping(value = "/{uuid}", method = RequestMethod.GET)
     public String getTasks(@PathVariable String uuid, Model model) {
 
