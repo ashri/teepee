@@ -8,10 +8,9 @@ import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.StringWriter;
+import java.io.*;
 import java.util.Collection;
+import java.util.Properties;
 
 /**
  * Take a Taskpaper file and generate an HTML file
@@ -68,7 +67,7 @@ public class FileGenerator {
         return " done.";
     }
 
-    private void generate() throws FileNotFoundException {
+    private void generate() throws IOException {
 
         this.label = taskpaperFile.getName().substring(0, taskpaperFile.getName().lastIndexOf("."));
 
@@ -76,24 +75,29 @@ public class FileGenerator {
         Collection<Item> consolidatedItems = new Consolidator(items).consolidate();
         DailyTasksDecorator dailyTasks = new DailyTasksDecorator(consolidatedItems);
 
-        runVelocity(dailyTasks);
+        String outputFileName = label + ".html";
+        File outputFile = new File(destinationDirectory, outputFileName);
+        Writer output = new FileWriter(outputFile);
+        runVelocity(dailyTasks, output);
+        output.flush();
+        output.close();
     }
 
-    private void runVelocity(DailyTasksDecorator dailyTasks) {
-        Velocity.init();
+    private void runVelocity(DailyTasksDecorator dailyTasks, Writer output) {
+
+        Properties p = new Properties();
+        p.setProperty("resource.loader", "classpath");
+        p.setProperty("classpath.resource.loader.class", "org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader");
+
+        Velocity.init(p);
 
         VelocityContext context = new VelocityContext();
         context.put("key", label);
         context.put("tasks", dailyTasks);
 
-        Template template = Velocity.getTemplate("templates/tasks.vm");
+        Template template = Velocity.getTemplate("tasks.vm");
 
-        StringWriter sw = new StringWriter();
-        template.merge(context, sw);
-
-        System.out.println("=========");
-        System.out.println(sw.toString());
-        System.out.println("=========");
+        template.merge(context, output);
     }
 
 }

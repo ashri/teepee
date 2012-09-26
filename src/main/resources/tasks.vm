@@ -40,7 +40,7 @@
 
 #parse( "header.vm" )
         <div class="page-header">
-            <h1>Teepee - $key</h1>
+            <h1>$key</h1>
         </div>
 
         #if( $tasks )
