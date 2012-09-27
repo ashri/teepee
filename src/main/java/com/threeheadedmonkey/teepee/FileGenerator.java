@@ -7,9 +7,13 @@ import com.threeheadedmonkey.teepee.web.DailyTasksDecorator;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
 import org.apache.velocity.app.Velocity;
+import org.joda.time.DateTime;
+import org.joda.time.format.ISODateTimeFormat;
 
 import java.io.*;
+import java.text.SimpleDateFormat;
 import java.util.Collection;
+import java.util.Date;
 import java.util.Properties;
 
 /**
@@ -75,7 +79,7 @@ public class FileGenerator {
         Collection<Item> consolidatedItems = new Consolidator(items).consolidate();
         DailyTasksDecorator dailyTasks = new DailyTasksDecorator(consolidatedItems);
 
-        String outputFileName = label + ".html";
+        String outputFileName = label.replaceAll(" ", "-").toLowerCase() + ".html";
         File outputFile = new File(destinationDirectory, outputFileName);
         Writer output = new FileWriter(outputFile);
         runVelocity(dailyTasks, output);
@@ -92,12 +96,20 @@ public class FileGenerator {
         Velocity.init(p);
 
         VelocityContext context = new VelocityContext();
+        context.put("date", new DateTool());
         context.put("key", label);
         context.put("tasks", dailyTasks);
+        context.put("timestamp", new DateTime().toString("dd MMM yyyy HH:mm"));
 
         Template template = Velocity.getTemplate("tasks.vm");
 
         template.merge(context, output);
     }
 
+    public static class DateTool {
+
+        public String format(String pattern, Date date) {
+            return new SimpleDateFormat(pattern).format(date);
+        }
+    }
 }

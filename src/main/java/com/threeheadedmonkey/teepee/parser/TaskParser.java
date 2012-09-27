@@ -70,8 +70,10 @@ public class TaskParser extends ItemParser<Task> {
             task.setDueDate(DateTimeFormat.forPattern("yyyy-MM-dd").parseDateTime(dateString).toDate());
         } else if (tag.startsWith("done")) {
             task.setDone();
-            String dateString = tag.substring(5, tag.length() - 1);
-            task.setDoneDate(DateTimeFormat.forPattern("yyyy-MM-dd").parseDateTime(dateString).toDate());
+            if (!tag.equals("done")) {
+                String dateString = tag.substring(5, tag.length() - 1);
+                task.setDoneDate(DateTimeFormat.forPattern("yyyy-MM-dd").parseDateTime(dateString).toDate());
+            }
         } else {
             task.addTag(new Tag(tag.trim()));
         }

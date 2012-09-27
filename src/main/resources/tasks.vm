@@ -28,7 +28,9 @@
 #macro( printTask $task )
 <div class="task">
     <p #if( $task.done ) class="done"#end>
-        <i class="#if( $task.done )icon-tick #else icon-minus #end #if( $task.isOverdue() || $task.isDueToday() || $task.isDueTomorrow() )icon-white#end"></i> $task.content
+        <i class="#if( $task.done )icon-tick #else icon-minus #end #if( $task.isOverdue() || $task.isDueToday() || $task.isDueTomorrow() )icon-white#end"></i>
+        $task.content
+        #if( $task.dueDate && !$task.isOverdue && !$task.isDueToday() && !$task.isDueTomorrow()) <span class="due-date label">Due: $date.format('dd MMM yyyy', $task.dueDate)</span>#end
     </p>
     #if( $item.hasItems() )
         #foreach( $childItem in $task.items )
