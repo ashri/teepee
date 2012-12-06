@@ -12,7 +12,7 @@ end
 
 # Create temporary directory
 temp_dir = Dir.mktmpdir
-puts "Temporary directory: #{temp_dir}"
+#puts "Temporary directory: #{temp_dir}"
 
 # Copy static files there
 status = `cp -R #{static_dir}/* #{temp_dir}`
@@ -29,11 +29,11 @@ unless status
 end
 
 # Send files up to server
-#status = `scp #{temp_dir}/* tearsofaunicorn.org:/srv/apps/teepee/public_html`
+status = `scp -r #{temp_dir}/* tearsofaunicorn.org:/srv/apps/teepee/public_html`
 unless status
     puts "Failed to copy files to server"
     exit
 end
 
 # Clean up
-#Dir.rmdir(temp_dir)
+`rm -r #{temp_dir}`

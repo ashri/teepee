@@ -1,0 +1,347 @@
+Me:
+	- Email Craig to organise pub crawl @done(2012-09-25)
+	- YC application
+	- Catch up with Sim
+	- Complete PADI online learning
+	- Go fishing one morning
+	- Begin estimation process for PAFDB @overdue
+	- Create journal
+	Write about pregnancy thoughts 
+	Weight gain and goals
+	Baby names and thoughts on why boys are harder
+	Hormones
+	Hawk talk and others noises
+	Not knowing anything about how its going
+	Limbo
+	Not succeeding
+Outings:
+	- Art Gallery of WA for MoMA event
+Development:
+	- Create web app to display Taskpaper files
+	It should read multiple files
+	Consolidate tasks into a single list ordered as today, tomorrow and then date
+	- Complete dj-pon3 and deploy on Citroen
+	- Look for a good photography template which could be adapted for use in a Jekyll blog
+	- Find a good example of Wordpress P2 usage as a company internal blog over something like logged IRC
+	- Create a Jenkins plugin to post notices to Wordpress which would hook into P2 internal blog @url(http://code.google.com/p/wordpress-java/)
+	- Create a Git post hook to post the commit summary and text to a P2 blog
+	- Create a script which could execute as Git post hook for static blog sites on deploy which would ping an RSS-Cloud service that there was a new post
+	- Incorporate a trace ID into each request/response that gets created in the software architecture
+	- Check out JDBI @url(http://www.jdbi.org/archive.html)
+	- Check out Dropwizard @url(http://dropwizard.codahale.com/getting-started/#getting-started)
+	- Check out JAudioTagger for ID3 reading @url(http://www.jthink.net/jaudiotagger/)
+	- Learn basic Tmux so I can have a window with IRC channel, shell, Git and Vim
+	- See how Concordian can work as specification by example
+	How can Concordian be used by a BA to write a spec which is then executed as a test?
+	How can the test be kept in sync with the changes in the code?
+	Can documentation and project progress be created and determined from the specification tests?
+	- Document RSS subscription server
+	- Begin RSS subscription server
+	- Create RSS river app for myself
+	- Record the tips from the Pragmatic Programmer and Getting Real books as a big list for a poster
+	- Create a proper web presence at threeheadedmonkey.com
+	- Order small screen for old Macintosh
+Home:
+	- Make credit card payment
+	- Chop shelves for above fridge @rennovation
+	- Get drawers for above pantry @rennovation
+	- Paint laundry @rennovation
+	- Have kitchen cupboards rebalanced after bench tops are on @rennovation
+	- Choose tiles for kitchen and laundry @rennovation
+	- Organise tiles to be installed in kitchen and laundry @rennovation
+	- Find some training videos about the Dremel
+	- Register warranty on Bosch products
+	- Pick best of wedding photos and put them up in the hallway
+	- Organise life and income insurance
+	- Install blinds throughout the house @rennovation
+	- Put remaining pictures in study into storage
+	- Purchase a new modem (Billion BiPAC 7402XL)
+	- Send photos of Tony and Emmas wedding to Tony and Emma
+Cars:
+	- Replace ignition switch
+	- Replace ball joint
+	- Replace steering rack
+	- Replace wheel bearings
+	- Fix starter motor
+	- Purchase jack stands
+	- Fix windscreen wipers
+	- Replace roof
+	- Paint car
+	- Replace rubber seals all over car
+	- Replace window tinting
+	- Replace interior carpets
+	- Fix clutch slip when putting foot down in third gear
+	- Fix clunk in rear tail-shaft bushing when changing gears
+	- Sort out suspension
+	- Install quieter exhaust
+Someday:
+	- Visit Colin and Jo in Harvey
+	- Make a will
+	- Subscribe to Octane magazine
+	- Payback $10k from wedding to Mum and Dad
+Archive:
+	- Airstream customisations @done(2012-09-24) @project(Me)
+	- Get last 3 invoices/remittence from Systemic for house loan @done(2012-09-24) @project(Me)
+	- Polish shoes @done(2012-09-21) @project(Me)
+	- Document Boozy better for YC @done(2012-09-17) @project(Me)
+	- Finish washing and do ironing @done(2012-09-16) @project(Me)
+	- Put new legs on desk @done(2012-09-16) @project(Me)
+	- Take Scooter to vet @done(2012-09-15) @project(Me)
+	- Wash Scooter @done(2012-09-15) @project(Me)
+	- Wash Scooter's bed @done(2012-09-15) @project(Me)
+	- Review items in RSS subscriptions @done(2012-09-15) @project(Me)
+	- Weed garden beds @done(2012-09-15) @project(Me)
+	- Plant plants that need it @done(2012-09-15) @project(Me)
+	- Replace roof corner channel @done(2012-09-12) @project(Home)
+	- Get Nastasha a bicycle @done(2012-09-15) @project(Someday)
+	- Ring Andrew about dropping off Scooter @done(2012-09-12) @project(Me)
+	- Drop off Scooter with Andrew @done(2012-09-12) @project(Me)
+	- Pack bags for Exmouth @done(2012-09-12) @project(Me)
+	- Check plane tickets for Exmouth @done(2012-09-12) @project(Me)
+	- Register for PADI course @done(2012-09-03) @project(Me)
+	- Print PADI documents @done(2012-09-12) @project(Me)
+	- Buy food for Sunday @done(2012-09-03) @project(Me)
+	- Organise contacts for Natasha @done(2012-09-03) @project(Me)
+	- Download the twilight zone @done(2012-08-29) @project(Me)
+	- Fix music in iTunes. Marc moulin. Pyramid. @done(2012-08-29) @project(Me)
+	- Holiday accommodation and car hire @done(2012-08-29) @project(Me)
+	- Check out Abrolhos islands @done(2012-08-27) @project(Me)
+	- Look at canned food design. See photo @done(2012-08-27) @project(Me)
+	- Find Olympus TG-1 (Cannington) @done(2012-08-25) @project(Me)
+	- Buy Havianas x2 @done(2012-08-25) @project(Me)
+	- Buy shirt at gstar @done(2012-08-25) @project(Me)
+	- Check out harbortown @done(2012-08-25) @project(Me)
+	- See if I want Volleys @done(2012-08-25) @project(Me)
+	- Check out history of Perth Markets @done(2012-08-26) @project(Me)
+	- Download Baraka @done(2012-08-26) @project(Me)
+	- Look for screening of Samsara @done(2012-08-26) @project(Me)
+	- Add music to iPhone @done(2012-08-26) @project(Me)
+	- Pick up Scooters medicine @done(2012-08-23) @project(Me)
+	- Rename Molten Universe 2 tracks (Damned Dodge) @done(2012-08-24) @project(Me)
+	- Put away things in study @done(2012-08-22) @project(Me)
+	- Clean out bag drawer in kitchen @done(2012-08-19) @project(Me)
+	- Complete mowing lawns in front yard @done(2012-08-19) @project(Me)
+	- Murder mystery adventure game @done(2012-08-18) @project(Me)
+	- eBay search nsx, film, film scanner @done(2012-08-12) @project(Me)
+	- Download bsds and Ubuntu @done(2012-08-16) @project(Me)
+	- Rip all CDs to the home media server @done(2012-08-16) @project(Citroen)
+	- Review Sim's spec and comment on estimates @done(2012-08-06) @project(Me)
+	- Estimate for Sim's spec for Drupal work @done(2012-08-07) @project(Me)
+	- Move email leads to clients @done(2012-08-09) @project(Me)
+	- Meet up with Tim @done(2012-08-02) @project(Me)
+	- Transfer Systemic pay @done(2012-08-02) @project(Me)
+	- Organise final roof repair and pay for completed work @done(2012-07-30) @project(Me)
+	- But iPod nano for Natasha @done(2012-07-23) @project(Me)
+	- Review latest Spring version and CDI support @done(2012-07-23) @project(Me)
+	- Review starred Reeder items @done(2012-07-21) @project(Me)
+	- Pay Tony Flood @done(2012-07-24) @project(Me)
+	- Respond to Dene about Beverley for 12th August @done(2012-07-24) @project(Me)
+	- Create a home media server in the Mac Classic @done(2012-07-23) @project(Citroen)
+	- Review strata documentation @done(2012-07-23) @project(Home)
+	- Replace gutters and downpipes @done(2012-07-28) @project(Home)
+	- Review skoda pricing @done(2012-07-15) @project(Me)
+	- Find skoda superb second hand @done(2012-07-15) @project(Me)
+	- Review books from Incomporable podcast @done(2012-07-17) @project(Me)
+	- Buy kotor from steam @done(2012-07-17) @project(Me)
+	- Convert Instapaper export to Bookmarks format @done(2012-07-11) @project(Me)
+	- Update GST spreadsheet with $4445 as payment amount @done(2012-07-11) @project(Me)
+	- Ming Thein gear review and check out EPL1/3? @done(2012-07-11) @project(Me)
+	- Calculate and pay quarterly BAS @done(2012-07-11) @project(Home)
+	- Organise gutter and downpipe replacement @done(2012-07-11) @project(Home)
+	- Subscribe to Monocle magazine @done(2012-07-11) @project(Someday)
+	- Complete new Mac setup @done(2012-07-10) @project(Me)
+		- Setup Arq backups @done(2012-07-09)
+		- Install Aperture and move library over @done(2012-07-10)
+		- Setup Aperture backup through Arq @done(2012-07-10)
+		- Backup Aperture library to NAS @done(2012-07-10)
+		- Setup Time Machine backups @done(2012-07-10)
+	- Review Margaret River accommodation for Dave's wedding @done(2012-07-10) @project(Me)
+	- Pay Water bill @done(2012-07-10) @project(Me)
+	- Determine GST amount @done(2012-07-10) @project(Me)
+	- Look at Wordpress P2 @done(2012-07-10) @project(Me)
+	- Check out Pinboard @done(2012-07-10) @project(Me)
+	- Get replacement battery for smoke detector @done(2012-07-08) @project(Me)
+	- Deposit change at NAB @done(2012-07-08) @project(Me)
+	- Check out SOLID videos @done(2012-07-08) @project(Me)
+	http://www.confreaks.com/videos/185-rubyconf2009-solid-ruby @done(2012-07-08) @project(Me)
+	http://www.confreaks.com/videos/240-goruco2009-solid-object-oriented-design @done(2012-07-08) @project(Me)
+	- Create a process to saved loved and archived content from Instapaper @done(2012-07-10) @project(Development)
+	- Find Datsun parts @done(2012-07-10) @project(Cars)
+	- Document Datsun fixes done @done(2012-07-10) @project(Cars)
+	- Reply to Gay to stop gutters and add lawn parking to agenda @done(2012-06-27) @project(Me)
+	- Check out Legend of Korra on iTunes @done(2012-06-27) @project(Me)
+	- Run gutter pricing comparison @done(2012-06-29) @project(Me)
+	- Mow lawn @done(2012-06-29) @project(Home)
+	- Wash Scooter @done(2012-06-29) @project(Home)
+	- Sort out items stored in the roof and the shed @done(2012-06-29) @project(Home)
+	- Pick up Scooter's medicine @done(2012-06-20) @project(Me)
+	- Work out with Natasha what a holiday option for a week could be @done(2012-06-24) @project(Me)
+	- Download Newsroom @done(2012-06-26) @project(Me)
+	- Order new medicine for Scooter @done(2012-06-19) @project(Me)
+	- Organise restaurant bookings at Burswood @done(2012-06-19) @project(Me)
+	- Learn the items quoted from Clean Coder @done(2012-06-17) @project(Me)
+	All 24 patterns in the GOF book @done(2012-06-17) @project(Me)
+	Working knowledge of many of the patterns in the POSA books @done(2012-06-17) @project(Me)
+	SOLID design principles and the component principles @done(2012-06-17) @project(Me)
+	Structured Analysis and Structured Design @done(2012-06-17) @project(Me)
+	DFDs, Structure Charts, Petri Nets, State Transition Diagrams and Tables, Decision Tables @done(2012-06-17) @project(Me)
+	- Pay Strata fees @done(2012-06-11) @project(Home)
+	- Look at changing third level passwords at various sites due to LinkedIn leak @done(2012-06-08) @project(Me)
+	- Buy pen refils for the Mont Blanc @done(2012-06-09) @project(Me)
+	- Book stay at Burswood for end of month @done(2012-06-08) @project(Me)
+	- Organise Mark's birthday Monocle subscription @done(2012-06-08) @project(Me)
+	- Document blood bowl phone game @done(2012-06-06) @project(Me)
+	In app payments for star players, in built league management, certain player types? @done(2012-06-06) @project(Me)
+	- Document incorporating Java CDI into the desired architecture and how that will hang together with injection, events, etc. @done(2012-06-06) @project(Me)
+	- Mow lawn @done(2012-06-04) @project(Home)
+	- Wash Scooter @done(2012-06-05) @project(Home)
+	- Print Changeovers invoices for tax purposes @done(2012-06-05) @project(Home)
+	- Make credit card payment @done(2012-06-03) @project(Home)
+	- Find book: Growing Object-oriented Software by Tests @done(2012-06-01) @project(Me)
+	- Document revised My Water architecture and plan @done(2012-06-01) @project(Me)
+	- Document what I have learned from My Water so far. @done(2012-06-01) @project(Me)
+	- Check other bills to pay @done(2012-06-01) @project(Me)
+	- Pay Changeovers account @done(2012-06-01) @project(Home)
+	- Order new NAB cards @done(2012-06-01) @project(Home)
+	- Move morgage money into account @done(2012-05-28) @project(Home)
+	- Download Girls show @done(2012-05-24) @project(Me)
+	- Download Midlake albums @done(2012-05-23) @project(Me)
+	- Look at writing script to do recurring tasks in Taskpaper @done(2012-05-24) @project(Development)
+		The task should change due items to today, update recurring items, remove today and due markers from done items @done(2012-05-24)
+		If item has a 'done' remove the 'today' from it. @done(2012-05-24)
+		If item has a 'due(date or day)' and date or day is today mark as 'today' @done(2012-05-24)
+		If item has a 'due(date)' and date is before today mark as 'overdue' @done(2012-05-24)
+	- Get microwave fixed @done(2012-05-23) @project(Home)
+	- Get rid of rubbish @done(2012-05-22) @project(Me)
+	- Look for stic sessions @done(2012-05-21) @project(Me)
+	- Ensure Twitter is not tracking me around the Internet @done(2012-05-21) @project(Me)
+	- Go buy sardines from Woolworths for Scooter @done(2012-05-22) @project(Me)
+	- Organise microwave repair @done(2012-05-21) @project(Home)
+	- Install shelves in the shed @done(2012-05-21) @project(Home)
+	- Check ruby rogues picks @done(2012-05-13) @project(Me)
+	- Make quiche for Sunday @done(2012-05-13) @project(Me)
+	- Pick up knives @done(2012-05-12) @project(Me)
+	- Pick up car @done(2012-05-12) @project(Me)
+	- Buy new pants and jumper for work @done(2012-05-12) @project(Me)
+	- Grab entertainment book from Lufrey Eliorda at JWTC (old helpdesk area on level 2) @done(2012-05-12) @project(Me)
+	- Check out Instantiations VASmalltalk @done(2012-05-14) @project(Me)
+	- Download new Sherlock Holmes movie @done(2012-05-14) @project(Me)
+	- Backup Devastator and archive @done(2012-05-14) @project(Me)
+		Own web initiatives and site @done(2012-05-14)
+	- Setup phone lock screen with contact details @done(2012-05-14) @project(Me)
+	- Bessa r4m info @done(2012-05-12) @project(Me)
+	- What colour film to try? @done(2012-05-12) @project(Me)
+	- Document what an AFL app should be @done(2012-05-11) @project(Me)
+	- Document AFL initiatives @done(2012-05-11) @project(Me)
+		Manage fantasy teams and tipping @done(2012-05-11)
+		Photographer with the crew @done(2012-05-11)
+		Own media channel @done(2012-05-11)
+	- Get upgrades for Mac Mini @done(2012-05-10) @project(Citroen)
+		Need a USB Superdrive @done(2012-05-10)
+	- Pay for bootcamp @done(2012-05-08) @project(Me)
+	- Ring Mum and book Sunday @done(2012-05-09) @project(Me)
+	- Download Legend of Korra @done(2012-05-07) @project(Me)
+	- Work out a birthday present idea for Ben @done(2012-05-08) @project(Me)
+	Need 2x HDD from Netplus @done(2012-05-06) @project(Citroen)
+	- Setup backup strategy @done(2012-05-06) @project(Citroen)
+	- Get stepladder for kitchen @rennovation @done(2012-05-06) @project(Home)
+	- Make credit card payment @done(2012-05-01) @project(Home)
+	- Move morgage money into account @done(2012-05-05) @project(Home)
+	- Mow lawn @done(2012-04-28) @project(Home)
+	- Transfer pay from Suncorp @done(2012-04-30) @project(Me)
+	- Organise dishwasher fix with service centre @done(2012-04-30) @project(Me)
+	- Record reference to basic Maven project @url(https://gist.github.com/2019732) @done(2012-05-03) @project(Development)
+	- Look for tumble log for website which is focused on photography @done(2012-04-30) @project(Me)
+	- Check out Leica R-system @done(2012-04-23) @project(Me)
+	- Check warranty on hot water system @done(2012-04-24) @project(Me)
+	- Phone for Dishwasher manual and warranty fix to seal @done(2012-04-26) @project(Me)
+	- Organise fix to hot water system @done(2012-04-26) @project(Me)
+	- Check Datsun insurance (4th June next payment debited) @done(2012-04-26) @project(Me)
+	- Grab a folder form Work to hold film negatives in @done(2012-04-27) @project(Me)
+	- Move iTunes library @done(2012-04-25) @project(Citroen)
+	- Update dot files @done(2012-04-25) @project(Citroen)
+	- Setup TV downloads @done(2012-04-25) @project(Citroen)
+	- Move media and movies @done(2012-04-25) @project(Citroen)
+	- Setup Mac Mini in lounge with dock @done(2012-04-26) @project(Citroen)
+	- Complete plumbing and electrical work @rennovation @done @project(Home)
+	- Find a Magic Eraser @done(2012-04-22) @project(Me)
+	Need Ram upgrade from http://www.macfixit.com.au/shop/index.php?_a=viewProd&productId=1350 @done(2012-04-22) @project(Me)
+	Need storage HDD enclosure from http://www.macfixit.com.au/shop/index.php?_a=viewProd&productId=1762 @done(2012-04-22) @project(Me)
+	- Mow lawn @done(2012-04-22) @project(Home)
+	- Check out footage ofTacoma bridge @done(2012-04-20) @project(Me)
+	- Pick up Mac mini from 10 snook rd @done(2012-04-20) @project(Me)
+	- Have bench tops installed @rennovation @done(2012-04-20) @project(Home)
+	- Get new Subaru tyres installed @done(2012-04-18) @project(Cars)
+	- Document Apple in the enterprise as a replacement for windows @done @project(Me)
+	- Document Water Corporation digital strategy architecture thoughts @done @project(Me)
+		Unified themes
+		Projects incorporate standard web style guide project
+		All assets support retina size images
+		Unified selections of and CSS frameworks
+	- Download Lana del Ray album @done(2012-04-19) @project(Me)
+	- Download legend of korra @done(2012-04-18) @project(Me)
+	- Complete GST for Jan-Mar 2012 quarter @done(2012-04-16) @project(Me)
+	- Make GST payment for Jan-Mar 2012 quarter @done(2012-04-16) @project(Me)
+	- Buy Com Truise albums @done(2012-04-16) @project(Me)
+	- Pay Changeover for part payments @rennovation @done(2012-04-17) @project(Home)
+	- Organise new tires for Subaru @done(2012-04-16) @project(Cars)
+	- Pick up Scooters medicine @done(2012-04-14) @project(Me)
+	- Pay required bills @done(2012-04-14) @project(Me)
+	- Purchase Mac mini for home storage @done(2012-04-14) @project(Me)
+	- Find a simple IRC server to run for notifications @done(2012-04-13) @project(Development)
+		Must be able to log channels and those log messages can be displayed back to users @done(2012-04-13)
+	- Connect Jira, Jenkins, Fatcat all together @done(2012-04-13) @project(Development)
+	- Fund Wasteland2 game @url(http://www.kickstarter.com/projects/inxile/wasteland-2) @done(2012-04-13) @project(Me)
+	- Watch screencast for Meteor @url(http://www.meteor.com/screencast) @done(2012-04-12) @project(Me)
+	- Check Usenet for ebooks (Tmux) @done(2012-04-11) @project(Me)
+	- Delete Instagram account @done(2012-04-10) @project(Me)
+	- Delete Facebook account @url(https://www.facebook.com/help/delete_account) @done(2012-04-13) @project(Me)
+	- Get to Medicare and HBF @done(2012-04-10) @project(Me)
+	Look at FatCat from Github @url(https://github.com/EmilHernvall/fatcat) @done(2012-04-13) @project(Development)
+	- Check out the source code to jIRCd and see if it can run from IntelliJ @done(2012-04-10) @project(Development)
+	- Get jIRCd up and running as a simple IRC server @done(2012-04-10) @project(Development)
+	- Download Mike Snow albums @done(2012-04-06) @project(Me)
+	- Renew mail redirection @done(2012-04-06) @project(Me)
+	- Get Andrew a birthday present (Beertech Dispense, Erindale Rd, Balcatta) @done(2012-04-07) @project(Me)
+	- Tell Mum and Andrew Easter day and time @done(2012-04-04) @project(Me)
+	- Transfer Keiran's birthday present money to Andrew @done(2012-04-03) @project(Me)
+	- Order iPad stylus @done(2012-04-05) @project(Me)
+	- Mow lawn @done(2012-04-09) @project(Home)
+	- Haircut @done(2012-03-31) @project(Me)
+	- Waxing @done(2012-03-31) @project(Me)
+	- Pick up car magazines @done(2012-03-31) @project(Me)
+	- Get engagement present @done(2012-03-31) @project(Me)
+	- Learn basic use of tmux so I can resume sessions @done(2012-03-29) @project(Development)
+	- Return Ikea items @rennovation @done(2012-03-31) @project(Home)
+	- Get Ikea shelves that we need @done(2012-03-31) @project(Home)
+	- Have kitchen and laundry cabinets installed @rennovation @done(2012-03-30) @project(Home)
+	- Go through notes and review @done(2012-03-28) @project(Me)
+	- Tell Natasha about Brett's dream @done(2012-03-27) @project(Me)
+	- Make doctors appointment @done(2012-03-28) @project(Me)
+	- Document RSS services @done(2012-03-28) @project(Development)
+	- Check how badly front of combo-oven is damaged @done @project(Home)
+	- Pick up sinks and taps from Claremont @rennovation @done(2012-03-26) @project(Home)
+	- Have initial plumbing and electrical work completed @rennovation @done @project(Home)
+	- Pick up lights from Claremont @done(2012-03-25) @project(Home)
+	- Pick up door handles @rennovation @done(2012-03-25) @project(Home)
+	- Add additional filler to laundry walls @rennovation @done(2012-03-25) @project(Home)
+	- Remove kitchen @rennovation @done(2012-03-25) @project(Home)
+	- Move wiki pages from Devastator to be markdown files in Dropbox @done(2012-03-24) @project(Me)
+	- Add additional filler to laundry walls @done(2012-03-24) @project(Home)
+	- Pick up lights from Claremont @rennovation @done(2012-03-24) @project(Home)
+	- Remove laundry @rennovation @done(2012-03-24) @project(Home)
+	- Check out Github's office music player and document own version @done @project(Development)
+	- Pick up Monocle magazines from Newsagent @done(2012-03-23) @project(Me)
+	- Backup Natasha's laptop @done @project(Me)
+	- Send people who made our security door to Andrew @done(2012-03-22) @project(Me)
+	- See if Bash can be configured with nice prompt like zsh @done(2012-03-22) @project(Development)
+	- Send Whirlpool appliance form back to Ikea @done(2012-03-22) @project(Home)
+	- Purchase kitchen and laundry from Ikea @rennovation @done(2012-03-22) @project(Home)
+	- Remove Wolves in the Throne room from iTunes @done(2012-03-21) @project(Me)
+	- Get lonely planet Tokyo for Phil @done(2012-03-21) @project(Me)
+	- Convert RTM over to Taskpaper @done(2012-03-21) @project(Me)
+	- Document Water Corporation digital strategy architecture thoughts @done
+		Unified themes
+		Projects incorporate standard web style guide project
+		All assets support retina size images
+		Unified selections of and CSS frameworks
