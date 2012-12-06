@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7ad7fae-7c7b-4f1a-a1a2-9d98fd225ea5" name="Default" comment="Completed Consolidator and tests">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/My Water.taskpaper" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Personal.taskpaper" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee-go.rb" afterPath="$PROJECT_DIR$/teepee-go.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.iml" afterPath="$PROJECT_DIR$/teepee.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/teepee.ipr" afterPath="$PROJECT_DIR$/teepee.ipr" />
